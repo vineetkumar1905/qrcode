@@ -1,0 +1,399 @@
+CRITICAL - 2023-07-13 06:40:39 --> Invalid file: "create_pdf.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1180): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/PdfController.php(12): view()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 06:59:35 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:04:03 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:04:12 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 31.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:06:35 --> syntax error, unexpected '-', expecting ';' or ','
+in APPPATH/Controllers/PdfController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:06:48 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:07:56 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:08:18 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:10:10 --> syntax error, unexpected 'namespace' (T_NAMESPACE), expecting identifier (T_STRING)
+in APPPATH/Controllers/PdfController.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 [internal function]: spl_autoload_call()
+ 5 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 6 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:10:32 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:10:43 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:12:47 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:13:27 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:18:06 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:18:10 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:23:34 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:24:52 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:24:55 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:24:58 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/var/www/html/DynamicPdfEmail/app/Controllers/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:25:53 --> App\Controllers\PdfController::generatePdf(): Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/php')
+in APPPATH/Controllers/PdfController.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-13 07:41:52 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 62.
+ 1 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:45:39 --> Call to undefined method CodeIgniter\Email\Email::from()
+in APPPATH/Controllers/PdfController.php on line 79.
+ 1 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:46:23 --> Call to a member function from() on null
+in APPPATH/Controllers/PdfController.php on line 79.
+ 1 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 07:46:59 --> Call to undefined method CodeIgniter\Email\Email::from()
+in APPPATH/Controllers/PdfController.php on line 79.
+ 1 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 07:47:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 07:47:53 --> Unable to locate the following email attachment: ""
+You did not specify a SMTP hostname.
+ERROR - 2023-07-13 07:50:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 07:50:25 --> Unable to locate the following email attachment: ""
+You did not specify a SMTP hostname.
+ERROR - 2023-07-13 07:51:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 07:51:18 --> Unable to locate the following email attachment: ""
+You did not specify a SMTP hostname.
+ERROR - 2023-07-13 08:11:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 08:11:57 --> Unable to locate the following email attachment: ""
+You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 08:11:57 --> Call to undefined function App\Controllers\show_error()
+in APPPATH/Controllers/PdfController.php on line 89.
+ 1 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:12:55 --> is_file() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Email/Email.php(657): is_file()
+ 3 APPPATH/Controllers/PdfController.php(85): CodeIgniter\Email\Email->attach()
+ 4 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:13:17 --> is_file() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Email/Email.php(657): is_file()
+ 3 APPPATH/Controllers/PdfController.php(85): CodeIgniter\Email\Email->attach()
+ 4 APPPATH/Controllers/PdfController.php(56): App\Controllers\PdfController->sendEmailWithAttachment()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:31:38 --> fopen(/var/www/html/DynamicPdfEmail/app/pdfs/my_pdf.pdf): failed to open stream: No such file or directory
+in VENDORPATH/mpdf/mpdf/src/Mpdf.php on line 9624.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/mpdf/mpdf/src/Mpdf.php(9624): fopen()
+ 3 APPPATH/Controllers/PdfController.php(53): Mpdf\Mpdf->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:32:39 --> fopen(/var/www/html/DynamicPdfEmail/app/pdfs/my_pdf.pdf): failed to open stream: No such file or directory
+in VENDORPATH/mpdf/mpdf/src/Mpdf.php on line 9624.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/mpdf/mpdf/src/Mpdf.php(9624): fopen()
+ 3 APPPATH/Controllers/PdfController.php(53): Mpdf\Mpdf->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:32:46 --> fopen(/var/www/html/DynamicPdfEmail/app/pdfs/my_pdf.pdf): failed to open stream: No such file or directory
+in VENDORPATH/mpdf/mpdf/src/Mpdf.php on line 9624.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 VENDORPATH/mpdf/mpdf/src/Mpdf.php(9624): fopen()
+ 3 APPPATH/Controllers/PdfController.php(53): Mpdf\Mpdf->Output()
+ 4 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 08:33:12 --> is_file() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Email/Email.php(657): is_file()
+ 3 APPPATH/Controllers/PdfController.php(86): CodeIgniter\Email\Email->attach()
+ 4 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 08:37:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 08:37:24 --> You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 08:37:24 --> Call to undefined function App\Controllers\show_error()
+in APPPATH/Controllers/PdfController.php on line 91.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 08:39:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 08:39:29 --> You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 08:39:29 --> Call to undefined function App\Controllers\show_error()
+in APPPATH/Controllers/PdfController.php on line 98.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 08:39:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 08:39:55 --> You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 08:39:55 --> Call to undefined function App\Controllers\show_error()
+in APPPATH/Controllers/PdfController.php on line 98.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 08:41:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 08:41:41 --> You did not specify a SMTP hostname.
+ERROR - 2023-07-13 10:32:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 10:32:08 --> You did not specify a SMTP hostname.
+ERROR - 2023-07-13 12:04:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:04:34 --> You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 12:04:34 --> Call to undefined function App\Controllers\show_error()
+in APPPATH/Controllers/PdfController.php on line 98.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 12:07:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:07:59 --> You did not specify a SMTP hostname.
+CRITICAL - 2023-07-13 12:07:59 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Controllers/PdfController.php on line 100.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 12:16:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1868): fsockopen()
+#2 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(93): CodeIgniter\Email\Email->send()
+#6 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+#7 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+#8 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/DynamicPdfEmail/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/D...')
+#12 {main}
+ERROR - 2023-07-13 12:16:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:16:31 --> 
+CRITICAL - 2023-07-13 12:16:31 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Controllers/PdfController.php on line 100.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 12:16:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1868): fsockopen()
+#2 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(93): CodeIgniter\Email\Email->send()
+#6 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+#7 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+#8 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/DynamicPdfEmail/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/D...')
+#12 {main}
+ERROR - 2023-07-13 12:16:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:16:40 --> 
+CRITICAL - 2023-07-13 12:16:40 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Controllers/PdfController.php on line 100.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 12:17:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php:1868
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1868): fsockopen()
+#2 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Email/Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(93): CodeIgniter\Email\Email->send()
+#6 /var/www/html/DynamicPdfEmail/app/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+#7 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+#8 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/DynamicPdfEmail/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/DynamicPdfEmail/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/var/www/html/D...')
+#12 {main}
+ERROR - 2023-07-13 12:17:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:17:09 --> 
+CRITICAL - 2023-07-13 12:17:09 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Controllers/PdfController.php on line 100.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 12:20:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 12:20:56 --> 
+CRITICAL - 2023-07-13 12:20:56 --> Call to undefined method CodeIgniter\Email\Email::print_debugger()
+in APPPATH/Controllers/PdfController.php on line 101.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+ERROR - 2023-07-13 13:16:51 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 13:16:51 --> 
+ERROR - 2023-07-13 13:16:56 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 13:16:56 --> 
+ERROR - 2023-07-13 13:17:17 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 13:17:17 --> 
+ERROR - 2023-07-13 13:17:26 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-07-13 13:17:26 --> 
+CRITICAL - 2023-07-13 13:23:07 --> Call to a member function config() on null
+in APPPATH/Controllers/PdfController.php on line 62.
+ 1 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-13 13:24:19 --> is_file() expects parameter 1 to be a valid path, string given
+in SYSTEMPATH/Email/Email.php on line 657.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Email/Email.php(657): is_file()
+ 3 APPPATH/Controllers/PdfController.php(89): CodeIgniter\Email\Email->attach()
+ 4 APPPATH/Controllers/PdfController.php(57): App\Controllers\PdfController->sendEmailWithAttachment()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')

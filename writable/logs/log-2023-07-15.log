@@ -1,0 +1,156 @@
+CRITICAL - 2023-07-15 15:57:37 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 67.
+ 1 APPPATH/Controllers/PdfController.php(62): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:01:02 --> Class 'CodeIgniter\Autoloader' not found
+in APPPATH/Controllers/PdfController.php on line 9.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(312): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 [internal function]: spl_autoload_call()
+ 6 SYSTEMPATH/CodeIgniter.php(890): class_exists()
+ 7 SYSTEMPATH/CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:01:18 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 70.
+ 1 APPPATH/Controllers/PdfController.php(65): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:01:32 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:01:36 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:02:52 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:03:01 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:03:22 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:03:26 --> Call to a member function library() on null
+in APPPATH/Controllers/PdfController.php on line 68.
+ 1 APPPATH/Controllers/PdfController.php(63): App\Controllers\PdfController->sendEmailWithAttachment()
+ 2 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:13:47 --> Class 'phpqrcode' not found
+in APPPATH/Controllers/PdfController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:14:30 --> Class 'phpqrcode' not found
+in APPPATH/Controllers/PdfController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:15:35 --> Class 'phpqrcode' not found
+in APPPATH/Controllers/PdfController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:16:33 --> Class 'CodeIgniter\phpqrcode' not found
+in APPPATH/Controllers/PdfController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:16:37 --> Class 'CodeIgniter\phpqrcode' not found
+in APPPATH/Controllers/PdfController.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:23:40 --> Invalid data at path "/var/www/html/DynamicPdfEmail/app/Controllers/assets/symfony.png"
+in VENDORPATH/endroid/qr-code/src/ImageData/LogoImageData.php on line 43.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(129): Endroid\QrCode\ImageData\LogoImageData::createForLogo()
+ 2 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(117): Endroid\QrCode\Writer\PngWriter->addLogo()
+ 3 VENDORPATH/endroid/qr-code/src/Builder/Builder.php(232): Endroid\QrCode\Writer\PngWriter->write()
+ 4 APPPATH/Controllers/PdfController.php(59): Endroid\QrCode\Builder\Builder->build()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:24:40 --> Invalid data at path "/var/www/html/DynamicPdfEmail/app/pdfs/symfony.png"
+in VENDORPATH/endroid/qr-code/src/ImageData/LogoImageData.php on line 43.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(129): Endroid\QrCode\ImageData\LogoImageData::createForLogo()
+ 2 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(117): Endroid\QrCode\Writer\PngWriter->addLogo()
+ 3 VENDORPATH/endroid/qr-code/src/Builder/Builder.php(232): Endroid\QrCode\Writer\PngWriter->write()
+ 4 APPPATH/Controllers/PdfController.php(59): Endroid\QrCode\Builder\Builder->build()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:24:47 --> Invalid data at path "/var/www/html/DynamicPdfEmail/app/pdfs/symfony.png"
+in VENDORPATH/endroid/qr-code/src/ImageData/LogoImageData.php on line 43.
+ 1 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(129): Endroid\QrCode\ImageData\LogoImageData::createForLogo()
+ 2 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(117): Endroid\QrCode\Writer\PngWriter->addLogo()
+ 3 VENDORPATH/endroid/qr-code/src/Builder/Builder.php(232): Endroid\QrCode\Writer\PngWriter->write()
+ 4 APPPATH/Controllers/PdfController.php(59): Endroid\QrCode\Builder\Builder->build()
+ 5 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 6 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
+CRITICAL - 2023-07-15 16:26:01 --> Logo path is not an image
+in VENDORPATH/endroid/qr-code/src/ImageData/LogoImageData.php on line 154.
+ 1 VENDORPATH/endroid/qr-code/src/ImageData/LogoImageData.php(49): Endroid\QrCode\ImageData\LogoImageData::detectMimeTypeFromPath()
+ 2 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(129): Endroid\QrCode\ImageData\LogoImageData::createForLogo()
+ 3 VENDORPATH/endroid/qr-code/src/Writer/PngWriter.php(117): Endroid\QrCode\Writer\PngWriter->addLogo()
+ 4 VENDORPATH/endroid/qr-code/src/Builder/Builder.php(232): Endroid\QrCode\Writer\PngWriter->write()
+ 5 APPPATH/Controllers/PdfController.php(59): Endroid\QrCode\Builder\Builder->build()
+ 6 SYSTEMPATH/CodeIgniter.php(932): App\Controllers\PdfController->generatePdf()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/var/www/html/DynamicPdfEmail/public/index.php')
